@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="listaNome">Lista de Tarefas</h1>
+        <form id="tarefaForm">
+            <input type="text" id="descricao" placeholder="Descrição" required>
+            <input type="date" id="data" required>
+            <button type="submit">Adicionar Tarefa</button>
+        </form>
+        
+        <div id="tarefaListPendentes">
+            <h2>Tarefas Pendentes</h2>
+        </div>
+        <div id="tarefaListConcluidas">
+            <h2>Tarefas Concluídas</h2>
+        </div>
+    </div>
+    <script src="tarefa.js"></script>
+</body>
+</html>
