@@ -57,9 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = `/lista.html?id=${id}`;
     };
 
-    window.editLista = async (id) => {
-        // Implementar funcionalidade de edição de lista
-    };
 
     window.deleteLista = async (id) => {
         try {
